@@ -41,13 +41,22 @@ License:
                 - OpenCV
 2. Compile
 3. Execute on a single image,
+
         Parameters:
+
                 -i [IN: image path]*
+
                 -m [IN: mask image path]
+
                 -t [IN: 0(Sketch)/1(Image)]*
+
                 -s [IN: Scale image to value(in pixels), maintaining aspect ratio]
+
                 -g [OUT: gradient image path]
+
                 -o [OUT: descriptors path]*
+
         * = required
+
 e.g.
         GFHOG.exe -i "myImage.jpg" -t 1 -s 100 -o "myImage.des"
