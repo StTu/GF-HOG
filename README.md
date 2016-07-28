@@ -9,18 +9,28 @@ See http://stuart-james.com/Publications/ for more details
 
 ## Info
 Developed By:           Stuart James
+
 Start Date:             04 July 2012
+
 Version Publish Date:   04 March 2013
+
 Version Number:         1.0
+
 Development Info:       Requires SuperLu, OpenCV
+
 Credit:                 John Collomosse (Base Code), Rui Hu (Algorithm[1])
+
 References:
+
         [1] Rui Hu; Barnard, M.; Collomosse, J.;
         "Gradient field descriptor for sketch based retrieval and localization,"
         Image Processing (ICIP), 2010 17th IEEE International Conference on ,
         vol., no., pp.1025-1028, 26-29 Sept. 2010 doi: 10.1109/ICIP.2010.5649331
+
 License:
+
         BSD License, Copyright (c) 2012, Stuart James
+
                 See: http://stuartjames.info/license.aspx
 
 
