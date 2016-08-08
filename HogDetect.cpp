@@ -1,6 +1,8 @@
 #include "HogDetect.h"
 #include <vector>
 #include <fstream> 
+#include <iostream>
+
 
 HogDetect::HogDetect(IplImage* img,IplImage* avoid) {
 
