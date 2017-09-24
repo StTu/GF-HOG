@@ -81,7 +81,7 @@ int main (int argc, const char *  argv [])
 		std::cout << "	Parameters Types:" << std::endl;
 		std::cout << "		-i [IN: image path]" << std::endl;
 		std::cout << "		-m [IN: mask image path]" << std::endl;
-		std::cout << "		-t [IN: 0(Sketch)/1(Image)]" << std::endl;
+		std::cout << "		-t [IN: 0(Image)/1(Sketch)]" << std::endl;
 		std::cout << "		-s [IN: Scale image to value(in pixels), maintaining aspect ratio]" << std::endl;
 		std::cout << "		-g [OUT: gradient image path]" << std::endl;
 		std::cout << "		-o [OUT: descriptors path]" << std::endl;
@@ -109,9 +109,9 @@ int main (int argc, const char *  argv [])
 				setSize = t;
 			i++;
 		} else if (val =="-t"){
-			int t = atoi(argv[i+1]);
-			if (t)
-				t = 1;
+			type = atoi(argv[i+1]);
+			if (type)
+				type = 1;
 			i++;
 		} else if (val =="-o"){
 			out_path = std::string(argv[i+1]);
